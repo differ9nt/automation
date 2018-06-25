@@ -18,7 +18,7 @@ public class App
             e.printStackTrace(System.out);
         }
         if (drv != null)
-            drv.quit();*/
+            drv.quit();*/////
         ProgKievUa product = new ProgKievUa();
         product.forum().setURL("https://prog.kiev.ua/forum");
         product.runTests();
