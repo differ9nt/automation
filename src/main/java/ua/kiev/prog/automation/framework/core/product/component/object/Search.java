@@ -14,7 +14,7 @@ public class Search extends ForumPageObject{
 
     @Override
     protected By readyLocator() {
-         return By.xpath("//div[@id='frame']");
+         return By.xpath("//div[@class='frame']");
     }
 
     final public Search getHelp(String search) {
